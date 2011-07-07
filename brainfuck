@@ -1,0 +1,16 @@
+#!/bin/bash
+if [ $# -eq 2 ]; then
+	cat "$2"|./bf - > "$1"
+	chmod +x $1
+else
+	echo "+-------------------------------------------+"
+	echo "|               BrainFuck                   |"
+	echo "|___________________________________________|"
+	echo "|                                           |"
+	echo "| Usage: $0 <bin_name> <source.bf> |"
+	echo "|                                           |"
+	echo "|                                           |"
+	echo "| - Martin Brabham                          |"
+	echo "+-------------------------------------------+"
+	echo
+fi

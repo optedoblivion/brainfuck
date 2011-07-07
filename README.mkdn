@@ -1,0 +1,12 @@
+Package List:
+	README.txt
+	bf
+	bf.asm
+	brainfuck
+	hello
+	hello_world.bf
+
+	To Compile run ./brainfuck
+
+
+----[.reaper.]----
